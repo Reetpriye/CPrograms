@@ -11,9 +11,12 @@ int main()
     {
         printf("%d %d\n", i, j);
     }
-    
+
 /*
 Loop termination condition is always last one.
+It is optional. You just need break statement.
+Expression 2 can perform the task of Exp1 and Exp3.
+Can pass zero(false) or non zero(true) value in Exp2.
 */
 
     for (; i <= 5, j <= 4; i++, j++)
