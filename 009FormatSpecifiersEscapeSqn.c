@@ -10,6 +10,23 @@
 %Lf for long double integer
 */
 
+/*
+\a for alarm or beep
+\b for backspace
+\f for form feed
+\n for new line
+\r for carriage return
+\t for tab horizontal
+\v for tab vertical
+\\ for backslash
+\' for single quote
+\"" for double quote
+\? for question mark
+\nnn for octal number
+\xhh for hexadecimal number
+\0 for null
+*/
+
 #include <stdio.h>
 
 int main()
