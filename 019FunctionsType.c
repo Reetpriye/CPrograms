@@ -4,7 +4,8 @@
 #include <stdio.h>
 
 // 1. Without arguments and without return value
-void printravi() {
+void printravi()
+{
     printf("Ravi\n");
 }
 
