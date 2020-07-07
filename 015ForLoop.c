@@ -27,3 +27,16 @@ Can pass zero(false) or non zero(true) value in Exp2.
     return 0;
 }
 
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+1 1
+2 1
+3 1
+4 1
+5 1
+6 1
+7 2
+8 3
+9 4
+*/

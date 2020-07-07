@@ -91,3 +91,10 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Ravi got 34 marks
+Ravi's new name is Reet Priye
+*/

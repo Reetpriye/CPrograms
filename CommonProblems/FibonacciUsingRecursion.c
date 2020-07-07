@@ -21,3 +21,10 @@ int main()
         printf("%d ", fib(i));
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+*/

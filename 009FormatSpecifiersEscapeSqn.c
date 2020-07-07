@@ -47,3 +47,18 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+The value of a is 8 and the value of b is 7.333000
+7.3330
+7.3330
+7.3330
+7.3330
+7.3330
+7.3330 no offset
+ 7.3330 1 space offset
+  7.3330 2 space offset on left
+7.3330  2 space offset on right
+*/

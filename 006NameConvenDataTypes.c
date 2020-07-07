@@ -44,3 +44,13 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+1
+4
+4
+8
+16
+*/

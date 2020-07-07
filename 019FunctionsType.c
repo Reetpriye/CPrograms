@@ -45,3 +45,14 @@ int main()
     printravi();
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Enter the number:
+4
+The entered number is : 4
+The sum is : 11
+****************************************
+Ravi
+*/

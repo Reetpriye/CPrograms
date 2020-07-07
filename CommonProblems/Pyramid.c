@@ -18,3 +18,15 @@ int main()
 		printf("\n");
 	}
 }
+
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+How many rows do you want for Pyramid?
+4
+   *   
+  ***  
+ ***** 
+*******
+*/

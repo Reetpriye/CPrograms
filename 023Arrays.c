@@ -30,3 +30,10 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+2 4 6 8 
+4 8 6 12 
+*/

@@ -32,3 +32,18 @@ int main()
     end:
     return 0;
 }
+
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+0
+Enter the number. Enter 0 to exit.
+5
+Enter the number. Enter 0 to exit.
+3
+Enter the number. Enter 0 to exit.
+7
+Enter the number. Enter 0 to exit.
+0
+*/

@@ -32,3 +32,12 @@ a xor b(a^b)
 
   return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+a | b = 1
+a & b = 0
+a + b = 34
+a - b = -34
+*/

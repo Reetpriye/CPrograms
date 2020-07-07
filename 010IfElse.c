@@ -30,3 +30,13 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Are you pass in Maths? Write 1 for YES and 0 for NO
+1
+Are you pass in Science? Write 1 for YES and 0 for NO
+1
+Your account will be credited with Rs.450.
+*/

@@ -22,3 +22,11 @@ int main()
 	else
 		printf("No! It's not a palindrome No.\n");
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Enter the No. to check whether it's palindrome or not?
+454
+It is a palindrome No.
+*/

@@ -28,3 +28,14 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Let's learn about Pointers in C
+The value of a is: 76
+The value of a is: 76
+The address of a is: 0x7ffddd1c0aac
+The address of a is: 0x7ffddd1c0aac
+The address of pointer to a is: 0x7ffddd1c0ab0
+*/

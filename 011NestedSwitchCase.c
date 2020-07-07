@@ -44,3 +44,14 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Enter your age:
+4
+Enter your marks obtained
+45
+The age is 4
+Your marks are 45
+*/

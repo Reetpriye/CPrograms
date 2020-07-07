@@ -48,3 +48,22 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Enter the value of A:
+45
+Enter the value of B:
+32
+The value of A : 45
+The value of B : 32
+The value of X using by call invoke method : 32
+The value of Y using by call invoke method : 45
+The value of A after function call swapbycall : 45
+The value of B after function call swapbycall : 32
+The value of X using by reference invoke method : 32
+The value of X using by reference invoke method : 45
+The value of A after function call swapbyreference : 32
+The value of B after function call swapbyreference : 45
+*/

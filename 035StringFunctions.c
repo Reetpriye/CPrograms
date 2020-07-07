@@ -34,3 +34,13 @@ int main()
 
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+s1 string is "Roshan"
+s2 string is "Ravi"
+s1 length is : 6
+String copied from s2 to s1.
+s1 is now : Ravi
+*/

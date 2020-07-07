@@ -47,13 +47,20 @@ int main()
 }
 
 /*
-Error I'm getting:
-
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
 034Strings.c: In function ‘main’:
-034Strings.c:42:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+034Strings.c:43:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
      gets(str);
      ^~~~
      fgets
-/tmp/cceGr0SN.o: In function `main':
-034Strings.c:(.text+0xcb): warning: the `gets' function is dangerous and should not be used.
+/tmp/ccTe3RHn.o: In function `main':
+034Strings.c:(.text+0xd7): warning: the `gets' function is dangerous and should not be used.
+Ravi
+Ravi
+Ravi
+Enter your desired String
+sagar
+The string you entered is : 
+sagar
 */

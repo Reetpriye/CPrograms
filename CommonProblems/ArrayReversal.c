@@ -4,12 +4,13 @@
 #include <stdio.h>
 
 void arrayRev(int arr[])
-{
+{   
+    printf("Reversed Array is : { ");
     for (int i = 8; i >= 0; i--)
     {
-        printf("%d", arr[i]);
+        printf("%d ", arr[i]);
     }
-    printf("\n");
+    printf("}\n");
 }
 
 int main()
@@ -19,3 +20,9 @@ int main()
     arrayRev(arr);
     return 0;
 }
+
+/*
+WARNING: Output may vary according to architecture type or input.
+Output of the program : 
+Reversed Array is : { 9 8 7 6 5 4 3 2 1 }
+*/
