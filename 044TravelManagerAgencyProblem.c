@@ -2,7 +2,7 @@
 // Author: REET
 
 #include <stdio.h>
-#define MAX_SIZE 40
+#define MAX_SIZE 80
 
 int main()
 {
@@ -128,5 +128,4 @@ Name:
 DL No.: 53
 Route: jU
 Kms already covered: 34.00
-
 */
