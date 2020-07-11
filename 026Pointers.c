@@ -3,12 +3,14 @@
 /*
 It is also a data type.
 Stores the address of any other variable.
-Size depends on architecture. Ex 2 bytes for 32 bit.
+Size depends on architecture. Ex 2 bytes
+for 32 bit.
 Can be declared using * (asterisk symbol).
-Null Pointer: A pointer that is not assigned any value but 
-NULL.
-We can use it to initialize a pointer variable when that pointer
-variable isn't assigned any valid memory address yet.
+Null Pointer: A pointer that is not 
+assigned any value but NULL.
+We can use it to initialize a pointer 
+variable when that pointer variable isn't
+ assigned any valid memory address yet.
 int* ptr = NULL;
 */
 
@@ -30,7 +32,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 Let's learn about Pointers in C
 The value of a is: 76

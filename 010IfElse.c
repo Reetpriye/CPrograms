@@ -1,4 +1,4 @@
-// Gift cash reward on passing exam subjects
+// Cash reward on passing exam's subject
 // Author: REET
 
 #include <stdio.h>
@@ -32,7 +32,8 @@ int main(int argc, char const *argv[])
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 Are you pass in Maths? Write 1 for YES and 0 for NO
 1

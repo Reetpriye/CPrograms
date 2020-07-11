@@ -28,12 +28,13 @@ int main()
 
 /*
 Break: Just get out of the loop
-Continue: Leave the rest of the code inside the loop
-and do the next iteration.
+Continue: Leave the rest of the code 
+inside the loop and do the next iteration.
 */
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 Loop Number: 1
 Enter your age:

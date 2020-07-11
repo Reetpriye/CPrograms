@@ -46,7 +46,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 Enter your age:
 4

@@ -34,7 +34,8 @@ int main()
 
     int a = 8;
     float b = 7.333;
-    printf("The value of a is %d and the value of b is %f\n", a, b);
+    printf("The value of a is %d and the
+    value of b is %f\n", a, b);
     printf("%1.4f\n",b);
     printf("%2.4f\n",b);
     printf("%3.4f\n",b);
@@ -49,7 +50,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 The value of a is 8 and the value of b is 7.333000
 7.3330

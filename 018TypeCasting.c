@@ -12,7 +12,8 @@ int main()
     int a = 3;
     float b = 54;
     float c = 54/5; 
-    // Any operation between int and int will result in int
+    // Any operation between int and int 
+    // will result in int
     float d = (float) 54/5;
     printf("The value of a is : %d\n", a);
     printf("The value of b is : %d\n", (int)b);
@@ -23,7 +24,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 The value of a is : 3
 The value of b is : 54

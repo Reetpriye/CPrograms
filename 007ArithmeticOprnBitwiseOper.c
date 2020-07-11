@@ -15,7 +15,7 @@ a xor b(a^b)
 /*
 ~ is the binary one's complement operator.
 << is the binary left shift operator.
->> is the binary right shift operator.s
+>> is the binary right shift operator.
 */
 
 #include <stdio.h>

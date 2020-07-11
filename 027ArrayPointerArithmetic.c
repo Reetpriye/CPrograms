@@ -2,12 +2,15 @@
 // Author: REET
 
 /*
-There are four operators that can be used on a pointer.
+There are four operators that can be 
+used on a pointer.
 [++, --, +, -]
 Consider the declaration: arr[10];
-arr ,by itself, without any index subscripting, can
-be assigned to an integer pointer.
-If arr is a pointer to arr[0] then arr + i is a pointer to arr[i].
+arr ,by itself, without any index 
+subscripting, can be assigned to an 
+integer pointer.
+If arr is a pointer to arr[0] then 
+arr + i is a pointer to arr[i].
 
 Index  ------>  Pointer ------> Address
 arr[0] ------>  arr ----------> 1000
@@ -64,7 +67,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 027ArrayPointerArithmetic.c: In function ‘main’:
 027ArrayPointerArithmetic.c:32:14: warning: format ‘%d’ expects argument of type int’, but argument 2 has type ‘int *’ [-Wformat=]

@@ -6,7 +6,8 @@
 
 void parser(char *string)
 {
-    int ins = 0, index = 0; // Variable to track whether we are inside the tag
+    int ins = 0, index = 0; 
+    // Variable to track whether we are inside the tag
     for (index = 0; index < strlen(string); index++)
     {
         if (string[index] == '<')
@@ -43,7 +44,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 Before parsing HTML : <h1>   My name is Reet    </h1>
 After parsing HTML : <h1>< <M< <a<e<i< <e<t< < </h1>

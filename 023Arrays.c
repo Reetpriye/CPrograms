@@ -2,14 +2,17 @@
 // Author: REET
 
 /*
-Items are stored in contiguos memory locations.
-Can also be collection of derived data types,
-such as pointers, structures, etc.
+Items are stored in contiguos memory 
+locations.
+Can also be collection of derived data 
+types, such as pointers, structures, etc.
 1D arrays are also known as Vector.
 Each element of an array is of same size.
-Disadvantages: Poor complexity of insertion and deletion operation.
-If there is enough space available but not in contiguous manner,
-then you'll not be able to initialize an array.
+Disadvantages: Poor complexity of 
+insertion and deletion operation.
+If there is enough space available but 
+not in contiguous manner, then you'll not
+be able to initialize an array.
 */
 
 #include <stdio.h>
@@ -32,7 +35,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 2 4 6 8 
 4 8 6 12 

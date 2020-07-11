@@ -3,9 +3,10 @@
 
 /*
 String is not a data type.
-We can express string as an array of character
-ending with a null character(\0).
-We can create a character array in the following ways:
+We can express string as an array of 
+character ending with a null character(\0).
+We can create a character array in the 
+following ways:
 char name [] = {'r','a','v','i','\0'};
 char name [] = "ravi";
 Taking string input from the user.
@@ -34,7 +35,8 @@ int main()
 
     char str[34] = {'R', 'a', 'v', 'i'};
     printStr(str);
-    // We can simply use puts() function to print string
+    // We can simply use puts() function 
+    // to print string
     puts(str);
     // Printing using printf
     printf("%s\n", str);
@@ -47,7 +49,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 034Strings.c: In function ‘main’:
 034Strings.c:43:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]

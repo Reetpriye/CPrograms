@@ -13,9 +13,11 @@ int main()
     // typedef unsigned long ul;
     // ul l1, l2, l3;
 
-    // int *a, b; It creates pointer "a" and int "b".
+    // int *a, b; It creates pointer "a"
+    // and int "b".
     typedef int* intpointer;
-    intpointer a,b; // It creates pointer "a" & "b".
+    intpointer a,b; // It creates pointer
+    // "a" & "b".
     int c = 89;
     a = &c;
     b = &c;
@@ -24,7 +26,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 
 */

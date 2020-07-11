@@ -88,7 +88,8 @@ You will get different outputs.
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 Ravi got 1952802130 marks
 Ravi id is 1952802130 

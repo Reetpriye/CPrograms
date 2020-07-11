@@ -40,7 +40,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 032PassingArrayInFunction.c: In function ‘main’:
 032PassingArrayInFunction.c:35:11: warning: passing argument 1 of ‘func2’ from incompatible pointer type [-Wincompatible-pointer-types]

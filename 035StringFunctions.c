@@ -2,11 +2,13 @@
 // Author: REET
 
 /*
-strcat() : Used to concatenate or combine two given strings.
-strlen() : strlen("Hello") -> 5.
-strrev() : strrev("Ravi") -> "ivaR".
-strcpy() : strcpy(s1,s2) -> Copies s1 to s2.
-strcmp() : strcmp("sold","tight") -> Comparison a/c to ASCII difference.
+strcat() : Used to concatenate or combine
+two given strings.
+strlen() : strlen("Hello")-> 5.
+strrev() : strrev("Ravi")-> "ivaR".
+strcpy() : strcpy(s1,s2)-> Copies s1 to s2
+strcmp() : strcmp("sold","tight") -> 
+Comparison a/c to ASCII difference.
 */
 
 #include <stdio.h>
@@ -24,7 +26,8 @@ int main()
     // puts(strrev(s1));
 
     /*
-    I'm having issue with puts() and gets() function as it has
+    I'm having issue with puts() and 
+    gets() function as it has
     already been deprecated.
     So unable to use strrev for now.
     */
@@ -36,7 +39,8 @@ int main()
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 s1 string is "Roshan"
 s2 string is "Ravi"

@@ -35,7 +35,8 @@ int main()
 
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 0
 Enter the number. Enter 0 to exit.
