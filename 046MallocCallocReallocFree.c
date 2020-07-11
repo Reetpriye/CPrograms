@@ -2,7 +2,7 @@
 // Author: REET
 
 /*
-In DMA, the memory is allocated at runtime
+In DMA,the memory is allocated at runtime
 from the heap segment.
 We need to include <stdlib.h>.
 We have 4 functions to achieve this task.
