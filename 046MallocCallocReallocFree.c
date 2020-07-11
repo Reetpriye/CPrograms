@@ -22,7 +22,7 @@ initialized to garbage values.
 SYNTAX : ptr = (ptr-type*) malloc(size
 _in_bytes)
 
-calloc() : stands for contiguos allocation
+calloc() :stands for contiguos allocation
 Properties similar to malloc() except,
 It reserves n blocks of memory with the
 given amount of bytes.
@@ -39,9 +39,9 @@ SYNTAX : ptr = (ptr-type*) realloc(ptr,
 new_size_in_bytes)
 
 free() : used to free allocated space
-If the dynamically allocated memory is not
-required anymore, we can free it using
-free() function.
+If the dynamically allocated memory is
+not required anymore, we can free it 
+using free() function.
 This will free the memory being used by
 the program in the heap.
 SYNTAX : free(ptr)
