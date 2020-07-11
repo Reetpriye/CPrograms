@@ -33,10 +33,10 @@ Compiler allocates some space for the
 stack part of the memory.
 Stack & Heap grows in opposite direction.
 In case of excess data, there is flow of
-data known as StackOverflow. e.g.recursion
+data known as StackOverflow.e.g.recursion
 with wrong/no
 base condition.
-With great power comes great resposibility
+With great power comes greatresposibility
 Use heap with caution as it can
 be scaled upto infinite capacity.
 We can create a pointer in the main
@@ -47,7 +47,7 @@ variable in the main function.
 The memory consumed will not get freed
 automatically in case we overwrite the 
 pointer.
-Command to get the size of the object file
+Command to get the size of the objectfile
 gcc ./Test.c -o test ; size test
 Shows the size in bytes.
 */
