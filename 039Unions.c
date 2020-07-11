@@ -2,23 +2,27 @@
 // Author: REET
 
 /*
-Union is a user defined type(similar to structure).
-In structure, each member has its own storage location,
-whereas members of a union uses a single shared memory location.
-This single share memory location is equal to size of its largest
-data member. 
+Union is a user defined type(similar to
+structure).
+In structure, each member has its own 
+storage location,whereas members of a
+union uses a single shared memory location.
+This single share memory location is equal 
+to size of its largest data member. 
 
 Example for more clarification.
 struct student {
     float marks; //4 bytes
     int id; //4 bytes
-    // 8 bytes in total gets allocated, 4 bytes for each
+    // 8 bytes in total gets allocated,
+    4 bytes for each
 }
 
 union student {
     float marks; //4 bytes
     int id; //4 bytes
-    // 4 bytes of data shared between id and marks
+    // 4 bytes of data shared between id
+    and marks
 }
 
 */
