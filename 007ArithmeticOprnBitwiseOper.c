@@ -34,7 +34,8 @@ a xor b(a^b)
 }
 
 /*
-WARNING: Output may vary according to architecture type or input.
+WARNING: Output may vary according to 
+architecture type or input.
 Output of the program : 
 a | b = 1
 a & b = 0
