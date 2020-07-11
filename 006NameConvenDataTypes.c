@@ -2,11 +2,14 @@
 // Author: REET
 
 /* 
-Can start with alphabets, digits, and underscore. 
+Can start with alphabets, digits, and 
+underscore. 
 Can't start with a digit.
 No whitespaces allowed.
-ex-: valid: int ravi, float ravi123, char _ravi232
-     invalid: int $ravi, int 77ravi, char long 
+ex-: valid: int ravi, float ravi123, 
+     char _ravi232
+     invalid: int $ravi, int 77ravi, 
+     char long 
 */
 
 /*
