@@ -14,67 +14,28 @@ int main()
         float kmsdrove;
     } e1, e2, e3, e4;
 
-    printf("1st Employee. Enter Your Name :\n");
-    scanf("%[^\n]%*c", e1.name);
-    // This way of getting input for me is far better.
-    // fgets(e1.name, MAX_SIZE, stdin);
-    printf("Kindly Provide us Your Driving License(DL) No. :\n");
-    scanf("%d", &e1.dlnumber);
-    printf("Route on Which You're Going to Drive :\n");
-    scanf("%[^\n]%*c", e1.route);
-    printf("How many Kms You already drove? :\n");
-    scanf("%f", &e1.kmsdrove);
+    for (int i = 1; i <= 4; i++)
+    {
+        printf("1st Employee. Enter Your Name :\n");
+        scanf("%[^\n]%*c", e[i].name);
+        // This way of getting input for me is far better.
+        // fgets(e1.name, MAX_SIZE, stdin);
+        printf("Kindly Provide us Your Driving License(DL) No. :\n");
+        scanf("%d", &e[i].dlnumber);
+        printf("Route on Which You're Going to Drive :\n");
+        scanf("%[^\n]%*c", e[i].route);
+        printf("How many Kms You already drove? :\n");
+        scanf("%f", &e[i].kmsdrove);
+    }
 
-    printf("2nd Employee. Enter Your Name :\n");
-    scanf("%[^\n]%*c", e2.name);
-    printf("Kindly Provide us Your Driving License(DL) No. :\n");
-    scanf("%d", &e2.dlnumber);
-    printf("Route on Which You're Going to Drive :\n");
-    scanf("%[^\n]%*c", e2.route);
-    printf("How many Kms You already drove? :\n");
-    scanf("%f", &e2.kmsdrove);
-
-    printf("3rd Employee. Enter Your Name :\n");
-    scanf("%[^\n]%*c", e3.name);
-    printf("Kindly Provide us Your Driving License(DL) No. :\n");
-    scanf("%d", &e3.dlnumber);
-    printf("Route on Which You're Going to Drive :\n");
-    scanf("%[^\n]%*c", e3.route);
-    printf("How many Kms You already drove? :\n");
-    scanf("%f", &e3.kmsdrove);
-
-    printf("4th Employee. Enter Your Name :\n");
-    scanf("%[^\n]%*c", e4.name);
-    printf("Kindly Provide us Your Driving License(DL) No. :\n");
-    scanf("%d", &e4.dlnumber);
-    printf("Route on Which You're Going to Drive :\n");
-    scanf("%[^\n]%*c", e4.route);
-    printf("How many Kms You already drove? :\n");
-    scanf("%f", &e4.kmsdrove);
-
-    printf("1st Employee Details: \n");
-    printf("Name: %s\n", e1.name);
-    printf("DL No.: %d\n", e1.dlnumber);
-    printf("Route: %s\n", e1.route);
-    printf("Kms already covered: %0.02f\n", e1.kmsdrove);
-
-    printf("2nd Employee Details: \n");
-    printf("Name: %s\n", e2.name);
-    printf("DL No.: %d\n", e2.dlnumber);
-    printf("Route: %s\n", e2.route);
-    printf("Kms already covered: %0.02f\n", e2.kmsdrove);
-
-    printf("3rd Employee Details: \n");
-    printf("Name: %s\n", e3.name);
-    printf("DL No.: %d\n", e3.dlnumber);
-    printf("Route: %s\n", e3.route);
-    printf("Kms already covered: %0.02f\n", e3.kmsdrove);
-
-    printf("4th Employee Details: \n");
-    printf("Name: %s\n", e4.name);
-    printf("DL No.: %d\n", e4.dlnumber);
-    printf("Route: %s\n", e4.route);
-    printf("Kms already covered: %0.02f\n", e4.kmsdrove);
+    for (int i = 1; i <= 4; i++)
+    {
+        printf("1st Employee Details: \n");
+        printf("Name: %s\n", e[i].name);
+        printf("DL No.: %d\n", e[i].dlnumber);
+        printf("Route: %s\n", e[i].route);
+        printf("Kms already covered: %0.02f\n", e[i].kmsdrove);
+    }
 
     return 0;
 }
