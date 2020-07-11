@@ -1,4 +1,4 @@
-// Arithmetic Operations & Bitwise Operator 
+// Arithmetic Operations & BitwiseOperator
 // Check Operator Precedence
 // Author: REET
 
