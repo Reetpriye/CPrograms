@@ -38,13 +38,16 @@ with wrong/no
 base condition.
 With great power comes great resposibility
 Use heap with caution as it can
-be scaled upto maximum capacity.
+be scaled upto infinite capacity.
+We can create a pointer in the main
+function and point to a memory block
+in the heap.
+The address is stored by the local 
+variable in the main function.
+The memory consumed will not get freed
+automatically in case we overwrite the 
+pointer.
+Command to get the size of the object file
+gcc ./Test.c -o test ; size test
+Shows the size in bytes.
 */
-
-#include <stdio.h>
-
-int main()
-{
-
-    return 0;
-}
